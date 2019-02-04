@@ -1,0 +1,87 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    height: 1520px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+header{
+width: 100%;
+height: 60px;
+background-color:white;
+
+margin: 0px;
+}
+.logo{
+width: 160px;
+height: 30px;
+position: absolute;
+left: 130px;
+top: 16px;
+}
+a{
+    text-decoration: none;  
+}
+.header_font{
+opacity: 0.75;
+color: rgba(25, 61, 90, 0.8);
+font-family: "Open Sans";
+font-size: 14px;
+font-weight: 400;
+}
+nav{
+    
+       /* Style for "Main Navig" */
+      width: 100%;
+      height: 60px;
+      background-color: #193d5a;
+      position: absolute;
+      top:60px;
+      left: 0px;
+      
+      ul{
+        position: absolute;
+        margin: 0px;
+        padding: 0px;
+        list-style: none;
+        left: 110px;
+      }
+      ul li{
+        float: left;
+        width: 170px;
+        height: 60px;
+        background-color: #193d5a;
+        opacity: .8;
+        line-height: 60px;
+        text-align: center;
+        font-size: 13px;
+        left: 100px;
+      
+      }
+      ul li a{text-decoration: none;
+      color: white;
+      display: block;
+      
+      }
+      ul li a:hover{
+        background-color: #15324a;
+        border: 1px solid #cb9623;
+        
+      }
+      ul li ul li{
+        display: none;
+      }
+      ul li:hover ul li{
+        display: block;
+      }
+}
+
+.masterboard{
+    width: 100%;
+    height: 230px;
+    position: absolute;
+    top:120px;
+    
+
+}

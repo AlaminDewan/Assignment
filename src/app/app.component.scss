@@ -1,0 +1,111 @@
+%listing_temp{
+  height:200px;
+  width: 100%;
+  position: absolute;
+  
+  margin: 0px;
+
+}
+
+.listing{
+  @extend %listing_temp;
+  top:700px;
+} 
+.listing1{
+  @extend %listing_temp;
+  top:500px;
+}
+.listing2{
+  @extend %listing_temp;
+  top:900px;
+}
+.listing3{
+  @extend %listing_temp;
+  top:1100px;
+}
+
+
+.calulator{
+        height:180px;
+        width: 100%;
+        position: absolute;
+        top:280px;
+        margin: 0px;
+
+}
+.mast1{
+  /* Style for "Find the b" */
+width: 661px;
+height: 49px;
+text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.8);
+color: #193d5a;
+font-family: "Open Sans Light";
+font-size: 36px;
+font-weight: 300;
+/* Text style for "Personal L" */
+font-family: "Open Sans";
+font-weight: 700;   
+position: absolute;
+top:15px;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+.mast2{
+  /* Style for "Use the ca" */
+  width: 428px;
+  height: 19px;
+  color: white;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  }
+  footer{
+  width: 100%;
+  height: 129px;
+  position: absolute;
+  top:1391px;
+  background-color:#f3f7f8;
+  }
+  .footertext{
+    width: 445px;
+height: 18px;
+color: #708eab;
+font-family: "Open Sans";
+font-size: 13px;
+font-weight: 400;
+/* Text style for "© 2018 . i" */
+color: #687179;
+position: absolute;
+top:60px;
+left:130px;
+}
+.facebook{
+  position: absolute;
+  left: 900px;
+  top: 60px;
+}
+.twitter{
+  position: absolute;
+  left: 950px;
+  top: 60px;
+}
+.instagram{
+  position: absolute;
+  left: 1000px;
+  top: 60px;
+}
+.youtube{
+  position: absolute;
+  left: 1050px;
+  top: 60px;
+}
+.pinterest{
+  position: absolute;
+  left: 1100px;
+  top: 60px;
+}

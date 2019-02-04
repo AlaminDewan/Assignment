@@ -1,0 +1,65 @@
+<form class="calculator">
+   <img src="assets/images/start.png"  alt=" masterboard" style="width: 280px;
+   height: 100px;position: absolute;"/>
+   <p class="start_text">Start Here!</p>
+   <p class="borrow">I want to borrow </p>
+   <p class="rm">RM :</p>
+   <div id='loan_input'>
+    <input type="number" id="amount" value="3000">
+   </div>
+     <p class="for">for</p>
+     <span id="year_d">
+       <select>
+         <option value="1">1</option>
+         <option value="2">2</option>
+         <option value="3">3</option>
+         <option value="4">4</option>
+         <option value="5">5</option>
+         <option value="6">6</option>
+         <option value="7">7</option>
+         <option value="8">8</option>
+         <option value="9">9</option>
+         <option value="10">10</option>
+       </select>
+     </span>
+     <p class="year"> Year</p>
+  <div class="darkboard">
+     <div class="vertical" style="left:280px"></div>
+     <p class="monthly_salary"> Monthly Salary</p>
+      <span>
+        <input type="range" min="0" max="10000" value="5000" step="1000" class='slider' id="range">
+        <script >
+               var slider = document.getElementById("range");
+                var output = document.getElementById("result");
+                output.innerHTML = slider.value;
+
+                slider.oninput = function() {
+                    output.innerHTML = this.value;}
+        </script>
+      </span>
+      <p class="result_">RM : <span id="result"></span></p>
+
+     <div class="vertical" style="left:590px"></div>
+     <p class="gov"> Government servant?</p>
+     <label class="switch">
+                <input type="checkbox" id="togBtn">
+                <span  class="slider1 round">
+                    <span class="on"> Yes</span>
+                    <span class="off"> NO</span>
+                </span>
+                  </label>             
+     <div class="vertical" style="left:800px"></div>
+     <p class="islamic">Show Islamic loan only </p>
+     <label class="switch1">
+        <input type="checkbox" id="togBt2">
+        <span  class="slider2 round">
+            <span class="on"> Yes</span>
+            <span class="off"> NO</span>
+        </span>
+          </label>
+  </div>
+</form>
+
+
+
+      
